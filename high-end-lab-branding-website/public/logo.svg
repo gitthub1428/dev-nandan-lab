@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle -->
+  <circle cx="200" cy="200" r="195" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Since 2009 -->
+  <path id="topCurve" d="M 100,70 A 130,130 0 0,1 300,70" fill="none"/>
+  <text font-size="28" font-weight="bold" fill="#1a1a1a" font-family="Arial, sans-serif">
+    <textPath href="#topCurve" startOffset="50%" text-anchor="middle">SINCE 2009</textPath>
+  </text>
+  
+  <!-- ISO Certification -->
+  <path id="bottomCurve" d="M 70,330 A 130,130 0 0,1 330,330" fill="none"/>
+  <text font-size="22" font-weight="bold" fill="#1a1a1a" font-family="Arial, sans-serif">
+    <textPath href="#bottomCurve" startOffset="50%" text-anchor="middle">ISO 9001:2015 Certified Lab</textPath>
+  </text>
+  
+  <!-- Red Dots -->
+  <circle cx="50" cy="200" r="12" fill="#e31e24"/>
+  <circle cx="350" cy="200" r="12" fill="#e31e24"/>
+  
+  <!-- Blood Drop -->
+  <path d="M 140,180 Q 140,120 180,80 Q 220,120 220,180 Q 220,240 180,260 Q 140,240 140,180" 
+        fill="none" stroke="#e31e24" stroke-width="4"/>
+  
+  <!-- Microscope -->
+  <g transform="translate(130, 140)">
+    <rect x="20" y="80" width="60" height="12" fill="#1a1a1a" rx="2"/>
+    <rect x="35" y="60" width="8" height="30" fill="#1a1a1a"/>
+    <circle cx="39" cy="55" r="8" fill="#1a1a1a"/>
+    <rect x="45" y="35" width="6" height="25" fill="#1a1a1a"/>
+    <circle cx="48" cy="32" r="5" fill="#1a1a1a"/>
+    <path d="M 25,80 L 25,95 L 75,95 L 75,80" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- DL Letters -->
+  <text x="195" y="220" font-size="80" font-weight="bold" fill="#1e6fa8" font-family="Arial, sans-serif">D</text>
+  <text x="260" y="220" font-size="70" font-weight="bold" fill="#6ba539" font-family="Arial, sans-serif">L</text>
+  
+  <!-- Dev-nandan -->
+  <text x="200" y="280" font-size="36" font-style="italic" fill="#1e6fa8" font-family="Georgia, serif" text-anchor="middle">Dev-nandan</text>
+  
+  <!-- PATHOLOGY LABORATORY -->
+  <rect x="120" y="290" width="160" height="28" fill="#6ba539" rx="4"/>
+  <text x="200" y="310" font-size="14" font-weight="bold" fill="#ffffff" font-family="Arial, sans-serif" text-anchor="middle">PATHOLOGY LABORATORY</text>
+</svg>
